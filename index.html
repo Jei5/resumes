@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles_index.css">
+    <link rel="stylesheet" href="css/styles_Izquierda.css">
+    <link rel="stylesheet" href="css/styles_Derecha.css">
+    <link rel="stylesheet" href="css/styles_Boton.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <div class="Parte_Izquierda">
+
+            <img class="Foto_Perfil" src="Imagenes/Mapache Moviendose.gif" alt="Foto De Perfil">
+            
+            <div class="Linea_Texto"><span><a href="#Boton_Contacto"><button id="Boton_Contacto">CONTACTO</button></span></a></div>
+            
+            <!-- Seccion Informacion de contacto-->
+            <div class="Info" id="Contenedor_Contacto" style="display: none;">
+                <a href="#"><i class="fa fa-phone"></i> 318-278-07-81</a>
+                <a href="#"><i class="fa fa-envelope"></i> felipemelo200430@gmail.com</a>
+                <a href="#"><i class="fa fa-address-card"></i> Cedula: 1.023.367.366</a>
+                <a href="#"><i class="fa fa-map-marked"></i> Cra 1A #60-52</a>
+            </div>
+            <!--Fin de la seccion de informacion-->
+
+            <div class="Linea_Texto"><span><a href="#Boton_Referencias"><button id="Boton_Referencias">REFERENCIAS</button></a></span></div>
+
+            <!-- Seccion Informacion de contacto-->
+            <div class="Info" id="Contenedor_Referencias" style="display: none;">
+                <a href="#"><i class="fa fa-user"></i> IGNACIO SOLANO</a><br>
+                <a href="#"><i class="fa fa-pie-chart"></i> ADMINISTRADOR </a><br>
+                <a href="#"><i class="fa fa-phone"></i> 310 5850139</a><br><br><br>
+                
+                <br><br>
+                <a href="#"><i class="fa fa-user"></i> JOSE DOMINGO</a><br>
+                <a href="#"><i class="fa fa-cogs"></i> OPERARIO </a><br>
+                <a href="#"><i class="fa fa-phone"></i> 315 5179573</a><br>
+            </div>
+            <!--Fin de la seccion de informacion-->
+
+            <div class="Linea_Texto"><span><a href="#Boton_Idioma"><button id="Boton_Idioma">IDIOMAS</button></a></span></div>
+
+            <div class="Contenedor_Barra" id="Contenedor_Idioma" style="display: none;">
+                <span class="Texto_Ingles">Inglés</span>
+                <div class="progress" style="height: 12px; width: 50%;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%; background-color: #73219c;"></div>
+                </div>
+                <span class="Texto_Ingles">60%</span>
+            </div>        
+        </div>
+
+        <div class="Parte_Derecha">
+            <h1 class="Titulo_Nombre">JEISSON FELIPE MELO CAMARGO</h1>
+
+            <div id="sobre mi"></div>
+            <hr class="Linea_Titulos">
+            <h2 class="Subtitulo">SOBRE MÍ
+                <a href="#sobre mi"><button class="Boton" id="Boton_Sobre_Mi">+</button></a>
+            </h2>
+            
+            <div id="Contenedor_Sobre_Mi" style="display: none;">
+                <hr class="Linea_Titulos Linea_Titulos_Abajo">
+                <p id="Texto_Sobre_Mi">Estudiante de cuarto semestre de Ingeniera 
+                    de Sistemas con conocimientos básicos sobre Python y  HTML, en 
+                    busca de trabajo para adquirir nuevos conocimientos 
+                    y habilidades, logrando crecer profesionalmente.</p>
+            </div>
+
+
+            <hr id="experiencia" class="Linea_Titulos">
+            <h2 class="Subtitulo">EXPERIENCIA
+                <a href="#experiencia"><button class="Boton" id="Boton_Experiencia">+</button></a>
+            </h2>
+
+            <div id="Contenedor_Experiencia" style="display: none;">
+                <hr class="Linea_Titulos Linea_Titulos_Abajo">
+
+                <h3 class="Subtitulo">Automotores Europa S.A.S</h3>
+                <ul class="Viñetas">
+                    <li>Mayo 2022 - Noviembre 2022</li>
+                    <li>Mantenimiento preventivo y correctivo a vehículos</li>
+                    <li>Alistamiento de vehículos</li>
+                    <li>Revisión y organización de inventario </li>
+                </ul>
+            
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Supermarket</h3>
+                <ul class="Viñetas">
+                    <li>Febrero 2021 - Agosto 2021</li>
+                    <li>Venta de insumos al publico</li>
+                    <li>Inventario de productos</li>
+                    <li>Manejo de caja</li>
+                </ul>
+            </div>
+
+            <div id="educacion"></div>
+            <hr class="Linea_Titulos">
+            <h2 class="Subtitulo">EDUCACIÓN
+                <a href="#educacion"><button class="Boton" id="Boton_Educacion">+</button></a>
+            </h2>
+
+            <div id="Contenedor_Educacion" style="display: none;">
+                <hr class="Linea_Titulos Linea_Titulos_Abajo">
+            
+                <h3 class="Subtitulo">Ingeniería de Sistemas (Cursando cuarto semestre)</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>Universidad ECCI</li>
+                    <li>Julio 2023</li>
+                </ul>
+                <hr class="Linea_Titulos Linea_Subtitulos">
+
+                <h3 class="Subtitulo">Técnico en Mantenimiento de Motores Diesel</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>SENA</li>
+                    <li>Septiembre 2021 - Diciembre 2022</li>
+                </ul>
+
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Bachiller Académico </h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>Colegió Miguel Ángel Asturias</li>
+                    <li>Febrero 2020 - Diciembre 2020</li>
+                </ul>
+
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Curso CISCO</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>The Cisco Networking Academy Team</li>
+                    <li>Abril 2025</li>
+                </ul>
+
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Curso Metodologías Ágiles</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>SENA</li>
+                    <li>Abril 2025</li>
+                </ul>
+
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Ingles A1</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>Smart Academia de Lenguas</li>
+                    <li>Abril 2024 - Septiembre 2024</li>
+                </ul>
+
+                <hr class="Linea_Titulos Linea_Subtitulos">
+                <h3 class="Subtitulo">Ingles A2 (Cursando)</h3>
+                <ul class="Viñetas Viñetas_Educacion">
+                    <li>Smart Academia de Lenguas</li>
+                    <li>Septiembre 2024</li>
+                </ul>
+            </div>
+        
+            <div id="habilidades"></div>
+            <hr class="Linea_Titulos">
+            <h2 class="Subtitulo">HABILIDADES
+                <a href="#habilidades"><button class="Boton" id="Boton_Habilidades">+</button></a>
+            </h2>
+
+            <div id="Contenedor_Habilidades" style="display: none;">
+                <hr class="Linea_Titulos Linea_Titulos_Abajo">
+
+                <ul class="Viñetas Viñetas_Habilidades">
+                    <li>Programación</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Metodologias Agiles</li>
+                </ul>
+            </div>
+
+            <hr class="Linea_Titulos">
+        </div>
+    </div>
+    <script src="scripts/script_Boton_Izquierda.js"></script>
+    <script src="scripts/script_Boton_Derecha.js"></script>
+</body>
+</html>

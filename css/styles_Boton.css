@@ -1,0 +1,17 @@
+/* Estilo del botón lado derecho */
+.Boton {
+    font-size: 40px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.Boton:focus {
+    border: none;
+    outline: none;
+}
+
+/* Estilo del botón lado izquierdo */
